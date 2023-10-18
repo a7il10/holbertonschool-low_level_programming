@@ -5,6 +5,7 @@
  * print_to_98 - prints all natural numbers from n to 98
  * @n: first int
  * Return: all natural numbers from n to 98
+ */
 
 void print_to_98(int n)
 {
