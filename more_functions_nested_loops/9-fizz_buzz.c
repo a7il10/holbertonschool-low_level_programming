@@ -2,12 +2,13 @@
 
 /**
  * main - Fizz if multiples of three, print Buzz if
- * @i: first int
+ * i: first int
  * Return: returns what main is asking for
  */
 
-int main(int i)
+int main(void)
 {
+	int i;
 
 	for (i = 1; i <= 100; i++)
 	{
