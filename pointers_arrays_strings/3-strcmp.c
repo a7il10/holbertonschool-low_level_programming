@@ -4,6 +4,7 @@
  * _strcmp - kdsbsv
  * @s1: dbfgkuhf
  * @s2: djkfhskhf
+ * Return: return diff
  */
 
 int _strcmp(char *s1, char *s2)
