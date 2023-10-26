@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * _strspn - dgfukhf
+ * @s: svbfkjbv
+ * @accept: kefbrejb
+ * Return: sfhksjfhhk
+ */
+
 unsigned int _strspn(char *s, char *accept)
 {
 	int count = 0;
