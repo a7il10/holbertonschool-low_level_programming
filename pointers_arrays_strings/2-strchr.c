@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 
 /**
  * _strchr - shjfbsbf
@@ -18,5 +17,5 @@ char *_strchr(char *s, char c)
 			return (s + i);
 		i++;
 	}
-	return (NULL);
+	return (*s);
 }
