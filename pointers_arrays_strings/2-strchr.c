@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stddef.h>
 /**
  * _strchr - shjfbsbf
  * @s: sjfbjef
@@ -18,6 +18,6 @@ char *_strchr(char *s, char c)
 		i++;
 	}
 	else{
-		return (*s);
+		return (NULL);
 	}
 }
