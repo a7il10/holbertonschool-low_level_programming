@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stddef.h>
 /**
  * _strstr - jshbfskjdbcsk
  * @haystack: dsfhbeshkfb
@@ -20,5 +20,5 @@ char *_strstr(char *haystack, char *needle)
 				return (needle);
 		}
 	}
-	return ('\0');
+	return (NULL);
 }
