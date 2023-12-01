@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * free_dlistint_t - free the list
+ * free_dlistint - free the list
  * @head: head of the list
  */
 
