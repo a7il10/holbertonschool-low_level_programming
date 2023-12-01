@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include "lists.h"
+#include <stdlib.h>
+
+/**
+ * free_dlistint_t - free the list
+ * @head: head of the list
+ */
+
+void free_dlistint(dlistint_t *head)
+{
+	dlistint_t *tmp;
+
+	while (head)
+	{
+		tmp = head;
+		head = head->next;
+		free(tmp);
+	}
+}
