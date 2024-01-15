@@ -1,3 +1,4 @@
+
 #include "search_algos.h"
 #include <stdio.h>
 
@@ -6,6 +7,7 @@
  * @array: pointer to the first element of the array to search in.
  * @size: number of elements in the array.
  * @value: value to search for.
+ *
  * Return: The first index where value is located
 */
 
