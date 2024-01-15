@@ -1,5 +1,4 @@
-
-#include "search_algos.h"
+#include <search_algos.h>
 #include <stdio.h>
 
 /**
@@ -9,7 +8,7 @@
  * @value: value to search for.
  *
  * Return: The first index where value is located
-*/
+ */
 
 int linear_search(int *array, size_t size, int value)
 {
@@ -32,4 +31,3 @@ size_t i;
 	}
 		return (-1);
 }
-
