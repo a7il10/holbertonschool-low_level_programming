@@ -25,5 +25,6 @@ int linear_search(int *array, size_t size, int value) {
             return i;
         }
     }
+	printf("Value not found in array\n");
     return 0;
 }
