@@ -1,4 +1,5 @@
 #include "search_algos.h"
+#include <stdio.h>
 
 /**
  * linear_search - implements the linear search algorithm.
@@ -29,3 +30,4 @@ size_t i;
 	}
 		return (-1);
 }
+
